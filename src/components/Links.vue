@@ -43,17 +43,7 @@
 <script setup>
 import { Icon } from "@vicons/utils";
 // 可前往 https://www.xicons.org 自行挑选并在此处引入
-
-// 引入所有指定的图标库
-import { AssignmentReturnOutlined, Home12Regular } from "@vicons/fluent";
-import { Link, Blog, CompactDisc, Cloud, Compass, Book, Fire, LaptopCode } from "@vicons/fa";
-import { Home, SettingsOutline } from "@vicons/ionicons4";
-import { AddCircleOutline, Heart } from "@vicons/ionicons5";
-import { AppstoreOutlined, SettingOutlined } from "@vicons/antd";
-import { Bookmark, Camera } from "@vicons/material";
-import { Heart as HeartTabler } from "@vicons/tabler";
-import { WatsonHealth3DCursor } from "@vicons/carbon";
-
+import { CaretLeft, Home, Link, Blog, CompactDisc, Cloud, Compass, Book, Fire, LaptopCode } from "@vicons/fa"; // 注意使用正确的类别
 import { mainStore } from "@/store";
 import { Swiper, SwiperSlide } from "swiper/vue";
 import { Pagination, Mousewheel } from "swiper/modules";
@@ -72,28 +62,16 @@ const siteLinksList = computed(() => {
 });
 
 // 网站链接图标
-// 可以根据需要扩展 siteIcon 对象
 const siteIcon = {
-  AssignmentReturnOutlined,
-  Home12Regular,
-  Link,
+  CaretLeft,
+  Home,
   Blog,
-  CompactDisc,
   Cloud,
+  CompactDisc,
   Compass,
   Book,
   Fire,
   LaptopCode,
-  Home,
-  SettingsOutline,
-  AddCircleOutline,
-  Heart,
-  AppstoreOutlined,
-  SettingOutlined,
-  Bookmark,
-  Camera,
-  HeartTabler,
-  WatsonHealth3DCursor,
 };
 
 // 链接跳转
