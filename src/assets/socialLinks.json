@@ -1,38 +1,32 @@
 [
   {
-    "name": "Github",
-    "icon": "/images/icon/github.png",
-    "tip": "去 Github 看看",
-    "url": "https://github.com/imsyy"
-  },
-  {
-    "name": "BiliBili",
-    "icon": "/images/icon/bilibili.png",
-    "tip": "(゜-゜)つロ 干杯 ~",
-    "url": "https://space.bilibili.com/98544142"
-  },
-  {
     "name": "QQ",
     "icon": "/images/icon/qq.png",
-    "tip": "有什么事吗",
-    "url": "https://res.abeim.cn/api/qq/?qq=1539250352"
+    "tip": "QQ 暂无",
+    "url": "https://res.abeim.cn/api/qq/?qq="
   },
   {
     "name": "Email",
     "icon": "/images/icon/email.png",
     "tip": "来封 Email ~",
-    "url": "mailto:one@imsyy.top"
+    "url": "mailto:admin@youyuan49.us.kg"
+  },
+  {
+    "name": "Line",
+    "icon": "/images/icon/line.png",
+    "tip": "Line 添加",
+    "url": "https://line.me/ti/p/B7IJeXR1G6"
   },
   {
     "name": "Twitter",
     "icon": "/images/icon/twitter.png",
-    "tip": "你懂的 ~",
-    "url": "https://twitter.com/iimmsyy"
+    "tip": "推特 主页",
+    "url": "https://twitter.com/youyuan49"
   },
   {
     "name": "Telegram",
     "icon": "/images/icon/telegram.png",
-    "tip": "你懂的 ~",
-    "url": "https://t.me/bottom_user"
+    "tip": "电报 联系",
+    "url": "https://t.me/youyuan490"
   }
 ]
